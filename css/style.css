@@ -16,8 +16,10 @@ body {
 
 .main-container .navigation-section {
     height: 500px;
-    background-image: linear-gradient(-90deg, #6f7311, #e61515);
+    /*background-image: linear-gradient(-90deg, #6f7311, #e61515);*/
+    background-image: url(./../images/background.jpg);
     background-color: rgb(247, 241, 241);
+    background-size: cover;
 }
 
 .main-container .navigation-section .header {
@@ -79,10 +81,11 @@ body {
     width: 72%;
     position: absolute;
     left: 13%;
-    background-color: rgb(228, 215, 215);
-    box-shadow: -4px 0px 0px rgba(255, 254, 254, 0.034), 1px 2px 3px 0px rgb(148 138 18);
+    background-color: /*rgb(228, 215, 215)*/
+    rgb(29 29 29 / 63%);
+    box-shadow: -4px 0px 0px rgb(228 224 224 / 3%), 1px 2px 3px 0px rgb(167 167 162);
     display: flex;
-    top: 140px;
+    top: 201px;
     border-radius: 9px;
     padding-right: 21px;
 }
@@ -107,7 +110,7 @@ body {
 
 .main-container .details-section .personal-details-wrapper .intro h3 {
     word-spacing: 4px;
-    color: #3d3737f0;
+    color: #ebdfdff0;
 }
 
 .main-container .details-section .personal-details-wrapper .name {
@@ -136,7 +139,7 @@ body {
 
 .main-container .details-section .contact-wrapper .contact {
     margin-top: 18px;
-    color: rgb(202, 29, 29);
+    color: rgb(195 184 184);
 }
 
 .main-container .details-section .contact-wrapper a {
@@ -188,7 +191,7 @@ body {
 
 .main-container .footer {
     height: 100px;
-    background-image: linear-gradient(-90deg, #6f7311, #e61515);
+    background-image: linear-gradient(-90deg, #282826, #4a4a4a);
 }
 
 .grey {
@@ -200,7 +203,7 @@ body {
 }
 
 .shado-effect {
-    background-image: linear-gradient(45deg, #ffc100, #f7ff00cc);
+    background-image: linear-gradient(45deg, #aea9ae5c, #d1d2c73b);
 }
 
 .clr-effect-text {
@@ -219,6 +222,8 @@ p {
     animation-duration: 10s;
 }
 
+
+/*
 @keyframes h3-animation {
     0% {
         color: red;
@@ -235,7 +240,7 @@ p {
     100% {
         color: green;
     }
-}
+}*/
 
 
 /*responsive css stars*/
