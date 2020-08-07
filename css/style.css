@@ -207,7 +207,7 @@ body {
 }
 
 .clr-effect-text {
-    background-image: linear-gradient(45deg, #ffc100, #ff0013cc);
+    background-image: linear-gradient(45deg, #f5f2e8, #7a6d6dcc);
     border-radius: 6px;
     width: 70%;
     padding: 4px 8px;
@@ -302,7 +302,6 @@ p {
         border: none;
         padding: 5px 12px;
         cursor: pointer;
-        box-shadow: #e1e1e124 0px 0px 11px 3px;
         outline: none;
     }
     .main-container .navigation-section .btn:hover {
